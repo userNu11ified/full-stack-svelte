@@ -1,8 +1,11 @@
-import './app.css'
-import App from './App.svelte'
+import "./style/font.css";
+import "./style/color.css";
+import "./style/app.css";
+
+import App from "./App.svelte";
 
 const app = new App({
-  target: document.getElementById('app'),
-})
+	target: document.body,
+});
 
-export default app
+export default app;
