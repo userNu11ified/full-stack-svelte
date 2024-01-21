@@ -14,14 +14,15 @@
 ### Cons
 
 -   Coupled frontend and backend.
--   Somebody developing just the frontend also clones the backend.
+-   Somebody developing just the frontend also clones the backend and vice versa.
 
 ### Workspace setup
 
 -   Frontend files can be found under `client`.
 -   Backend files can be found under `server`.
--   `.gitignore` ignores `dist` of **both!**
+-   Shared files can be found under `shared`.
+-   `.gitignore` ignores `dist` in **all of them**!
 
 ---
 
-Built with 💖 by **null**.
+Built with ~~**_hatred towards TS_**~~ 💖 by **null**.
