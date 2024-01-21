@@ -23,6 +23,16 @@
 -   Shared files can be found under `shared`.
 -   `.gitignore` ignores `dist` in **all of them**!
 
+### NPM scripts
+
+-   `npm run dev` for just frontend dev server.
+-   `npm run build` for just building the frontend.
+-   `npm run preview` for building and then hosting the built files.
+    -   Do not use this for production, useful for checking network request sizes.
+-   `npm run check` for checking svelte files.
+-   `npm run serve-dev` for running both the frontend and backend on a dev server.
+-   `npm run serve-prod` for building and then running both the front end and backend.
+
 ---
 
 Built with ~~**_hatred towards TS_**~~ 💖 by **null**.
