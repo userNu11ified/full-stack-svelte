@@ -10,5 +10,5 @@ const app = express();
 
 ViteExpress.config({ viteConfigFile: "./client/vite.config.ts", mode: mode });
 ViteExpress.listen(app, PORT_NUMBER, () => {
-	console.log("Server started!");
+	console.log(`Server started on: http://localhost:${PORT_NUMBER}`);
 });

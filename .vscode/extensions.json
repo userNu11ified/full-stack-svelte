@@ -9,6 +9,7 @@
 		"esbenp.prettier-vscode",
 		"fivethree.vscode-svelte-snippets",
 		"svelte.svelte-vscode",
-		"ardenivanov.svelte-intellisense"
+		"ardenivanov.svelte-intellisense",
+		"meganrogge.template-string-converter"
 	]
 }
