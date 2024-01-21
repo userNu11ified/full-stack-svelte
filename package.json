@@ -1,0 +1,29 @@
+{
+	"name": "library",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite client",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"serve-dev": "tsc --project server && node ./server/dist/index.js",
+		"serve-prod": "tsc --project server && vite build client && node ./server/dist/index.js production"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^3.0.1",
+		"@tsconfig/svelte": "^5.0.2",
+		"svelte": "^4.2.8",
+		"svelte-check": "^3.6.2",
+		"tslib": "^2.6.2",
+		"typescript": "^5.2.2",
+		"vite": "^5.0.8"
+	},
+	"dependencies": {
+		"@types/express": "^4.17.21",
+		"@types/node": "^20.11.5",
+		"express": "^4.18.2",
+		"vite-express": "^0.13.0"
+	}
+}
