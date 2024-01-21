@@ -5,9 +5,9 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite client",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"build": "vite build client",
+		"preview": "vite preview client",
+		"check": "svelte-check --tsconfig ./client/tsconfig.json",
 		"serve-dev": "tsc --project shared && tsc --project server && node ./server/dist/index.js",
 		"serve-prod": "tsc --project shared && tsc --project server && vite build client && node ./server/dist/index.js production"
 	},
